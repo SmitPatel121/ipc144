@@ -1,0 +1,14 @@
+In line number 101 of your output:
+The output should be:
+Enter the account number: 50001 Account
+                               ^
+But your output is: 
+Enter the account number: 50001
+                                ^
+
+Unmatched character details:
+The character in column 33 is supposed to be:
+  [Space] ASCII code(32)
+but you printed
+  [Empty Line] ASCII code(0)
+

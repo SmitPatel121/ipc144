@@ -1,0 +1,101 @@
+Name    : Smit Anjaykumar Patel
+				ID      : 104424213
+Email   : sapatel59@myseneca.ca
+Section : BTP100NAA.07777.2217
+				Workshop – 3
+
+1.Mapping of the month integer value to the first characters of the month name could have been accomplished using two possible construct
+
+A)using  if else
+ 
+example :
+
+#include <stdio.h>
+
+int main(void)
+{   int month;
+    printf(“Enter value of month in numerical formate MM :”);
+    scanf(“%d”,&month);
+
+    if (month==1)
+	{
+		printf(“JAN”);
+       }	
+    Else if (month==2)
+	{
+		printf(“FEB”);
+       }
+       ....//until DEC we have to use else if statement
+       
+       return 0 ;	
+}
+
+B) Using switch 
+
+  Example :
+  
+  
+#include <stdio.h>
+
+int main(void)
+{
+	Int month ;
+	
+	printf(“Enter value of month in numerical formate MM :”);
+      scanf(“%d”,&month);
+
+	switch(month)
+	{
+	  Case 1:
+	 	printf(“JAN”);
+		break;
+		
+		printf(“FEB”);
+		break;
+// we have to write this until DEC
+       	default;
+       		printf(“Invalid”);
+       }
+       
+  Return 0 ;
+
+}
+
+So this are the two ways by which we can change integer value of month to the first three character of the month .
+
+
+2.There are three iteration constructs
+ i)While
+ ii)do-while
+ iii)for
+ 
+In my program, I have used while loop as follows:
+	#include <stdio.h>
+       Int main ()
+       {
+       	Int month ;
+       	printf(“Enter integer value for month: ”);
+       	scanf(“%d”, %month);
+       
+       	int validvalue = 1;
+       	bool isValid = false ;
+       	while(validValue <= 12)
+       	{
+       	 If (validValue == month)
+			{
+				isValid = true ;
+				break ;
+       }
+       validValue ++ ;
+       }
+       	If (!isValid)
+       	{
+       	   printf(“Invalid integer month provide”)
+       }
+       return 0 ; 
+       } 
+       Reason: we need to traverse through the valid month integers to check if the input value is one of the valid values. I can do so using while as shown above .
+       
+       3. To run and test the program, I used a main c program and executed it on various possible cases. Many times I got errors and to debug the issue, I used printf statements to inspect if the scanf function is getting correct inputs. I also used debug function in visual studio form the line which I get error.
+       
+

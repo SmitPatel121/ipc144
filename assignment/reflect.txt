@@ -1,0 +1,20 @@
+/*
+    ==================================================
+    Assignment #1 Milestone #2
+    ==================================================
+    Name   : Smit Anjaykumar Patel
+    ID     : 104424213
+    Email  : sapatel59@myseneca.ca
+    Section: BTP100NAA
+*/
+
+Answer 1 :
+In the helper functions library, I find the most difficulty in "getCharOperation" and also displaying the error message when we enter some character value and it doesn't fulfill the given condition was the most difficult part I find in the helper function. I was getting errors every time I run the code I tried many ways like watching video lectures again and again and going through some examples and also the notes in the course material was very helpful so after all this hard work I got my code running successful and all the problem were solved.
+ 
+Answer 2 :
+We have several advantages when we use helper function and it saves lot of time. It helps to use it again , but we have to write required general logic in our c file like we have .c extension . From that point forward, we can call that function when we require that, and it will process the necessary procedure accordingly. It contains most pieces of the logic
+code, so it will further develop simple code coherence. So, helper functions enhance the understandability and intelligibility of code. For instance, in MILESTONE 2, the code of "User login input" has not many lines of code, and all emphasis, calculations, and approvals were coded in getCstring function which code was included in commonHelpers.c record. Notwithstanding, (.c) document code is greater than it and it is a1ms2.c record, so we simply need to call function and pass require boundary in
+a1ms2.c record and we have done our code with helper Functions. 
+
+Answer 3:
+Data type “Structure” is a user-defined data type in C programming language that combines logically related data things of various data types together. Structure type variable can store more than one data thing of differing data types under one name, so c language permits the software engineer to create new data types. creating another data types(struct) brings many advantages when we use it in the c program. As a matter of first importance, structures combine more than one piece of data about a similar subject together in a similar place. What's more, it is useful when you need to accumulate data of comparative data types and boundaries like first name, last name, etc. Besides, it is very simple to keep up with as we can address the entire record by utilizing a solitary name. In any case, there are some dull sides when we are creating new data types(struct). Structure is slower because it requires extra room for every one of the data. In expansion, the change of one data structure in a code necessary to change at numerous different places. In this manner, the changes become hard to track.

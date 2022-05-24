@@ -1,0 +1,12 @@
+Script started on Fri 18 Dec 2020 07:03:02 PM EST
+Change Maker Machine
+====================
+Enter dollars and cents amount to convert to coins: $9.92
+
+$2.00 Toonies  X 4 (remaining: $1.92)
+$1.00 Loonies  X 1 (remaining: $0.92)
+$0.25 Quarters X 3 (remaining: $0.17)
+
+Machine error! Thank you for letting me keep $0.17!
+
+Script done on Fri 18 Dec 2020 07:03:06 PM EST

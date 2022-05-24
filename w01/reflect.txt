@@ -1,0 +1,17 @@
+	Name   : smit anjaykumar patel
+	ID     : 104424213
+	Email  : sapatel59@myseneca.ca
+	Section: BTP100NAA.07777.2217
+
+
+1. What you have learned in completing this workshop ?
+Answer : In this workshop I have learned many things such as how to use visual studio,WinSCP, Putty and also the main thing how to write C program . It was my first time i wrote a C program
+and also learned how to submit our program whith the help of Matrix. And also learned how to transfer files from our laptop to matrix using WinSCP and also how to use  command like 'mkdir','cd' ,'ls' etc .
+
+2. Brief describe what SSH is and how you used it in this workshop ?
+Answer : SSH which is Secure shell telnet client which helps us to open and run linux server such as matrix . I used Putty in our workshop with the help of link provided.I can also login into it and also test our c program . it also helps to submit our workshop.
+
+3. Briefly describe what SFTP is and how you used it in this workshop?
+Answer : SFTP which stands for secure file transfer protocol . It is like bridge between linux and windows so it can transfer our code or any other file to linux. it makes a life easy like we can write our coad in visual studio and then compile and run in matrix.And also it can creat new dictonary directly without writing command in linux , In this workshop we used WinSCP software and also learned how to use this software
+
+  

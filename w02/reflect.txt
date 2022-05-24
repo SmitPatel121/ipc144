@@ -1,0 +1,27 @@
+Name   : Smit Anjaykumar Patel
+	ID     : 104424213
+	Email  : sapatel59@myseneca.ca
+	Section: BTP100NAA.07777.2217
+workshop-2
+
+
+1. A double represent around 2 raised to the power 64 different values. So, 10.12 is a   different case as each encodable value is some 53 bit integer times some power of 2. 
+When it is printed with accurate decimal precession, its rounded difference from 10.12 shows up. 
+    10.10 = 10.100000000000000
+    10.12 = 10.119999999999999
+    10.15 = 10.150000000000000
+If we try to find the exact value then it will show the 10.119999999999999 because of lack of bites, for solving this we have to use different character like “long double”.
+
+
+
+
+2. The possible values that can be returned based on the following statements using the modulus operator are as follows:  
+    a) 0, 1.
+    b) 0, 1, 2.
+    c) [0,99]   or 0 to 99.
+
+3. Discard.
+
+
+4.It is often a best practice to convert floating-point values to integers when performing arithmetic operations because double can just give best precision a part whose denominator is a power of two. At the point when you say 0.1 in a double, you do not get 1/10, as 1/10 isn't a fraction, whose denominator is any power of two. You get the division that is nearest to 1/10 that has a power of two in the denominator. And also, to avoid any kind of error in our program it is best practice to first convert floating-point valves to integers.
+

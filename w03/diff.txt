@@ -1,0 +1,14 @@
+In line number 22 of your output:
+The output should be:
+2021-FEB-01
+^
+But your output is: 
+Log starting date: 2021-FEB-01
+^
+
+Unmatched character details:
+The character in column 1 is supposed to be:
+  [2] ASCII code(50)
+but you printed
+  [L] ASCII code(76)
+

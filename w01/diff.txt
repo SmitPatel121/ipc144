@@ -1,0 +1,14 @@
+In line number 1 of your output:
+The output should be:
+*** Welcome to Seneca's C Programming Course ***
+    ^
+But your output is: 
+***  Welcome to Seneca's C Programming Course  ***
+    ^
+
+Unmatched character details:
+The character in column 5 is supposed to be:
+  [W] ASCII code(87)
+but you printed
+  [Space] ASCII code(32)
+
