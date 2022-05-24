@@ -1,0 +1,52 @@
+Name    : Smit Anjaykumar Patel
+ID      : 104424213
+Email   : sapatel59@myseneca.ca
+Section : BTP100NAA.07777.2217
+       				
+       
+       Workshop – 4
+       
+       1. Parallel arrays are used to store and group the related data. Each index of every array corresponds to a particular group or person.
+       
+       For e.g., Consider 2 array:
+       
+       fname = ['Megha’, 'Sahil’, 'Manav’, 'Raj']
+       
+       lname= [ 'Batra’, 'Wasan’, 'Kapoor’, 'Naswa’]
+       
+       Here at index 0 both the array stores the infomation about one person,
+       
+       There are total 4 users according to above two arrays named Megha Batra, Sahil Wasan, Manav Kapoor, Raj Naswa.
+       
+       We can use key to group the data. For eg at key 0 both the array contain information about user 1 i.e. Megha Batra and so on.
+       
+       Thus, key is important and used as index of array to get the data.
+       
+2. Every element has an exceptional index and holds a unique value. Index numbering begins at 0 and stretches out to one less than the quantity of elements in the array. In c the primary element in an array has an index of 0, so I think it is common practice to iterate arrays initializing the iterator variable to zero and not to a value of one.
+
+For example: In all the arrays we have iterated using loops, I have initialized all the variables to 0 which were used to iterate arrays. Let us observe the small part from this workshop which is given below.
+
+
+Int m=0;
+
+while (m<items){
+            
+			if (p[m]==z){
+			
+                 if (finance[m]=='y'){
+
+                    				f = 1;
+                
+						}
+                
+						psum=psum+cost[m];
+
+			            }
+
+				            m++;
+        
+			}
+       
+       3) An array is a continous space available in a memory. Consider a almirah having 5 partitions in it. In computer memory we can say this wardrobe as array. Now to know from which rack you need to take out stuff or in which partition you will place pespi and in which rack you will place fanta etc we give an integer to every partition. We have a restriction that wardrobe should contain only similar type of stuffs like cold drinks or clother. In term of computer, it is called datatypes. And we give integer starting from 0 to each partition.
+       
+      

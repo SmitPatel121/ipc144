@@ -1,0 +1,17 @@
+Script started on Fri 18 Dec 2020 07:38:53 PM EST
+Change Maker Machine
+====================
+Enter dollars and cents amount to convert to coins: $9.92
+Service fee (5.0 percent): 0.50
+Balance to dispense: $9.42
+
+$2.00 Toonies  X 4 (remaining: $1.42)
+$1.00 Loonies  X 1 (remaining: $0.42)
+$0.25 Quarters X 1 (remaining: $0.17)
+$0.10 Dimes    X 1 (remaining: $0.07)
+$0.05 Nickels  X 1 (remaining: $0.02)
+$0.01 Pennies  X 2 (remaining: $0.00)
+
+All coins dispensed!
+
+Script done on Fri 18 Dec 2020 07:38:57 PM EST

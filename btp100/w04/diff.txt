@@ -1,0 +1,14 @@
+In line number 33 of your output:
+The output should be:
+   Does this item have financing options? [y/n]: k
+                                                 ^
+But your output is: 
+   Does this item have financing options? [y/n]: n
+                                                 ^
+
+Unmatched character details:
+The character in column 50 is supposed to be:
+  [k] ASCII code(107)
+but you printed
+  [n] ASCII code(110)
+

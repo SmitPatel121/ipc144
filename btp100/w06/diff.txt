@@ -1,0 +1,14 @@
+In line number 46 of your output:
+The output should be:
+PRICE         : $0
+                 ^
+But your output is: 
+PRICE         : $26.99
+                 ^
+
+Unmatched character details:
+The character in column 18 is supposed to be:
+  [0] ASCII code(48)
+but you printed
+  [2] ASCII code(50)
+

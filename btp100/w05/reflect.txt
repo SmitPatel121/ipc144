@@ -1,0 +1,46 @@
+/*
+	==================================================
+	Workshop #5 (reflection):
+	==================================================
+	Name   : Smit Anjaykumar Patel
+	ID     : 104424213
+	Email  : sapatel59@myseneca.ca
+	Section: BPT100NAA.07777.2217
+*/
+
+
+1.    The advantage of making use of user define data type is that they add the ability to self-document your data structures. The benefits are that we are able to modify the data type according to our preference. making use of the user defined data type can allow us to document the data type and the documentation of the project and software easily because a data type is defined by us and the documentation of the user defined data type is easy because it is being used by the preference of the user. Also reducing Complexity: Complex program can be decomposed into small subprograms or user defined types. Readability of Program : Using user defined types, a complex problem is
+   divided into different sub-programs with clear
+   objective and interface which makes easy to understand the logic behind the
+   program.
+ 
+Example:
+---------
+struct GameInfo
+{
+int move;
+int pathlength;
+int buried_bomb[MAX_PATHLENGTH];
+int buried_treasure[MAX_PATHLENGTH];
+};
+
+int main(void)
+{
+struct GameInfo gameConfiguration = { 0,0,{0},{0} };
+
+printf("Set the path length:");
+
+scanf(" %d", &gameConfiguration.pathlength);
+
+return 0;
+}
+
+
+
+2.    There are several things to make the program running possible but the two main things is, firstly add a variable for history of the game in struct called gameInfo. Secondly, create arrays for history just like we created for the entered position and store that values in arrays.
+After that, we can use loop with a condition to get the output if we want to show last game is the end game.
+
+
+
+3.     In the beginning of program I forget to add ‘; ’ when declaring the user-defined types structures so in my program I used calculation but they were showing the error then I corrected it .while making the program I was a lot confused and afraid but then I write whole output and think about inputs in my rough note book which make me come out of fear and helped me to write the loops and condition .I have make an error in making loop which took my most of the time, the problem with it was not exiting the loop so every time I run and come to the condition and hit enter it again prints the same thing then after a lot of headache, I used debug for each loop and come to know where I was wrong. And debugging tool in Visual studio helped me to solve the errors and problem I face in making program.
+
